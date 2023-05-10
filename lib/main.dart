@@ -4,7 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:meals/screens/categories.dart';
 
 var kColorScheme = ColorScheme.fromSeed(
-  seedColor: Color.fromARGB(255, 218, 172, 55)
+  seedColor: Color.fromARGB(255, 5, 24, 1)
 );
 
 var kDarkColorScheme = ColorScheme.fromSeed(
@@ -34,10 +34,10 @@ void main() {
       theme: ThemeData().copyWith(
         useMaterial3: true,
         colorScheme: kColorScheme,
-        appBarTheme: const AppBarTheme().copyWith(
-          backgroundColor: kColorScheme.onPrimaryContainer,
-          foregroundColor: Colors.white,
-        ),
+        // appBarTheme: const AppBarTheme().copyWith(
+        //   backgroundColor: kColorScheme.onPrimaryContainer,
+        //   foregroundColor: Colors.white,
+        // ),
         cardTheme: const CardTheme().copyWith(
           color: kColorScheme.secondaryContainer,
           margin: const EdgeInsets.symmetric(vertical: 5, horizontal: 5),

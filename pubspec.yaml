@@ -38,6 +38,7 @@ dependencies:
   google_fonts: ^4.0.4
   enough_platform_widgets: ^0.7.2
   transparent_image: ^2.0.1
+  bulleted_list: ^0.0.1+0.1a
 
 dev_dependencies:
   flutter_test:
