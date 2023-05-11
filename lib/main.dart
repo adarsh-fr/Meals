@@ -1,15 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
-import 'package:meals/screens/categories.dart';
 import 'package:meals/screens/tabs.dart';
 
 var kColorScheme = ColorScheme.fromSeed(
-  seedColor: Color.fromARGB(255, 247, 5, 5)
+  seedColor: const Color.fromARGB(255, 247, 5, 5)
 );
 
 var kDarkColorScheme = ColorScheme.fromSeed(
-  seedColor: Color.fromARGB(255, 0, 14, 0),
+  seedColor: const Color.fromARGB(255, 0, 14, 0),
   brightness: Brightness.dark,
 );
 void main() {

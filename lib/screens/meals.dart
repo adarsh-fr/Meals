@@ -34,20 +34,12 @@ class MealsScreen extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         children: [
           Text(
+            textAlign: TextAlign.center,
             'Oops.. Nothing found here!',
             style: Theme.of(context).textTheme.headlineLarge!.copyWith(
                   color: Theme.of(context).colorScheme.onBackground,
                 ),
           ),
-          const SizedBox(
-            height: 16,
-          ),
-          Text(
-            'Try selecting a different Category',
-            style: Theme.of(context).textTheme.bodyLarge!.copyWith(
-                  color: Theme.of(context).colorScheme.onBackground,
-                ),
-          )
         ],
       ),
     );
