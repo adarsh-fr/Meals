@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import 'package:meals/screens/categories.dart';
+import 'package:meals/screens/tabs.dart';
 
 var kColorScheme = ColorScheme.fromSeed(
   seedColor: Color.fromARGB(255, 247, 5, 5)
@@ -59,7 +60,7 @@ void main() {
             ),
       ),
       themeMode: ThemeMode.system,
-      home: const CategoriesScreen(),
+      home: const TabsScreen(),
     ),
   );
 }
