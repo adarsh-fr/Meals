@@ -28,14 +28,13 @@ class CategoriesScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return PlatformScaffold(
-      iosContentPadding: true,
-      iosContentBottomPadding: true,
+    return Scaffold(
       
-      appBar: PlatformAppBar(
+      
+      appBar: AppBar(
         //backgroundColor: CupertinoDynamicColor.withBrightness(
             //color: Colors.orangeAccent, darkColor: Colors.blueGrey),
-        title: const Text('Cuisine Categories'),
+        title: const Text('CuisineCategories'),
       ),
       body: GridView(
         padding: const EdgeInsets.all(20),

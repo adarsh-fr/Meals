@@ -72,17 +72,17 @@ class MealItem extends StatelessWidget {
                           label: '${meal.duration} min',
                         ),
                         const SizedBox(
-                          width: 16,
+                          width: 10,
                         ),
                         MealItemTrait(
                           icon: Icons.work,
                           label: complexityText,
                         ),
                         const SizedBox(
-                          width: 16,
+                          width: 10,
                         ),
                         MealItemTrait(
-                          icon: Icons.money,
+                          icon: Icons.currency_exchange,
                           label: affordabilityText,
                         ),
                       ],
