@@ -17,7 +17,7 @@ To run the app, clone this repository and run it using Flutter.
 - User can view details of a meal including ingredients and instructions
 - User can add a meal to their favorites
 - User can view their favorite meals
-- User can search for meals by name
+
 
 ## Installation
 1. Clone the repository
