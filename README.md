@@ -9,7 +9,7 @@ Meals App is a Flutter-based mobile application that provides users with a varie
 - Dart 2.12.0 or higher
 
 ## Getting Started
-To run the app, clone this repository and run it using Flutter.
+To run the app, clone this repository and run it using Flutter
 
 ## Features
 - User can view a list of available meals
