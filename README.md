@@ -1,6 +1,6 @@
 # Meals App
 
-Meals App is a Flutter-based mobile application that provides users with a variety of recipes to choose from, as well as the ability to save their favorite recipes for future reference.
+Meals App is a Flutter-based mobile application that provides users with a variety of recipes to choose from, as well as the ability to save their favorite recipes for future reference
 
 ![Meals App Demo](https://user-images.githubusercontent.com/59118492/126570073-6c369c48-7a4c-40bb-af68-4a5c74696d7e.gif)
 
