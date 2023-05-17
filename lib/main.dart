@@ -58,7 +58,7 @@ void main() {
             ),
       ),
       themeMode: ThemeMode.system,
-      home: const TabsScreen(),
+      home: const TabScreen(),
     ),
   );
 }
