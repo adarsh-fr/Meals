@@ -35,7 +35,7 @@ class MealsScreen extends StatelessWidget {
         children: [
           Text(
             textAlign: TextAlign.center,
-            'Oops.. Nothing found here!',
+            'Please Mark your favourites from MEALS Screen',
             style: Theme.of(context).textTheme.headlineLarge!.copyWith(
                   color: Theme.of(context).colorScheme.onBackground,
                 ),
