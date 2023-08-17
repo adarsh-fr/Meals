@@ -4,7 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:meals/screens/tabs.dart';
 
 var kColorScheme = ColorScheme.fromSeed(
-  seedColor: const Color.fromARGB(255, 247, 5, 5)
+  seedColor: Color.fromARGB(255, 146, 247, 5)
 );
 
 var kDarkColorScheme = ColorScheme.fromSeed(
