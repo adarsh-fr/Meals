@@ -35,12 +35,15 @@ class MealItem extends StatelessWidget {
         },
         child: Stack(
           children: [
-            FadeInImage(
-              fit: BoxFit.cover,
-              height: 200,
-              width: double.infinity,
-              placeholder: MemoryImage(kTransparentImage),
-              image: NetworkImage(meal.imageUrl),
+            Hero(
+              tag: meal.id,
+              child: FadeInImage(
+                fit: BoxFit.cover,
+                height: 200,
+                width: double.infinity,
+                placeholder: MemoryImage(kTransparentImage),
+                image: NetworkImage(meal.imageUrl),
+              ),
             ),
             Positioned(
               bottom: 0,
@@ -79,7 +82,7 @@ class MealItem extends StatelessWidget {
                           label: complexityText,
                         ),
                         const SizedBox(
-                          width: 10,
+                          width: 9,
                         ),
                         MealItemTrait(
                           icon: Icons.currency_exchange,

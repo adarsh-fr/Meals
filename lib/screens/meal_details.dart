@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'package:bulleted_list/bulleted_list.dart';
+import 'package:meals/animation/favIcon_animation.dart';
 import 'package:meals/models/meal_model.dart';
 import 'package:meals/providers/favorites_provider.dart';
 
@@ -36,25 +37,27 @@ class MealDetailsScreen extends ConsumerWidget {
                 ),
               );
             },
-             
-            icon: Icon(isFav ? Icons.favorite : Icons.favorite_border_outlined),
-            color: isFav?Colors.pink : Colors.white.withOpacity(1),
-            iconSize: 30,
-            
+            icon: AnimatedFavoriteIcon(isFav: isFav),
+            color: isFav ? Colors.pink : Colors.white.withOpacity(1),
+            // alignment: Alignment.topRight,
+            iconSize: 25,
           )
         ],
       ),
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Image.network(
-              meal.imageUrl,
-              height: 300,
-              width: double.infinity,
-              fit: BoxFit.cover,
+            Hero(
+              tag: meal.id,
+              child: Image.network(
+                meal.imageUrl,
+                height: 300,
+                width: double.infinity,
+                fit: BoxFit.cover,
+              ),
             ),
             const SizedBox(
-              height: 14,
+              height: 13,
             ),
             Text(
               'Ingredients',
